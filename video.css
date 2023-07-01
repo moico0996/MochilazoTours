@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Edu+VIC+WA+NT+Beginner:wght@500&family=Montserrat:ital,wght@1,800&family=Open+Sans:wght@500&family=Oswald:wght@200&family=Roboto+Condensed&display=swap');
+body{
+    background-color: black;
+}
+.h1{
+    color: brown;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#video1{
+
+    width: 50%;
+    transform: rotate(270deg);
+    position: relative;
+    bottom: 140px;
+    border: 2px solid white;
+}
+
+.videum{
+    color: #9B9A98;
+    position: relative;
+    bottom: 50px;
+}
+.text-vid{
+    border: 1px solid #9B9A98 ;
+    padding: 5px;
+    
+    
+}
+.boton-video{
+    background-color: black;
+    border-radius: 2px solid white ;
+    color: white;
+    
+}
+.boton-video:hover{
+    color: white;
+    background-color: red;
+}
+.slider-pequeño{
+    width: 200px;
+}
+.titulo-video{
+    color: #F85526;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.videos-pequeños{
+    position: relative;
+    right: 200px;
+}
+@media screen and (max-width: 768px){
+    .video{
+        width: 100%;
+        
+        
+    }
+    .text-vid{
+        width: 250px;
+        margin: auto;
+    }
+    .h1{
+        position: relative;
+        bottom: 25px;
+    }
+    #video1{
+        position: relative;
+        top: 4px;
+    }
+    .slider-pequeño{
+        margin: auto;
+    }
+    .titulo-video{
+        
+        font-size: 20px;
+        position: relative;
+        top: 8px;
+        left: 20px;
+    }
+    .videos-pequeños{
+        position: absolute;
+        top: 1000px;
+        left: 50px;
+    }
+    
+}

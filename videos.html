@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="video.css">
+    <title>videos promocionales</title>
+</head>
+<body>
+  <style>    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#descripcion">Descripcion</a></li>
+        <li><a href="#informe">Informe</a></li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+     
+    </div>
+  </div>
+</nav>
+  
+<div class="container text-center">    
+  <div class="row">
+    <div class="col-sm-3 well">
+      <div class="well">
+        <p><a href="#">CONACHE</a></p>
+        <img src="imagenes/dddd.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+      </div>
+      <div class="well">
+        <p><a href="#">Interests</a></p>
+        <p>
+          <span class="label label-default">Turismo</span>
+          <span class="label label-primary">Aventura</span>
+          <span class="label label-success">Diversion</span>
+          <span class="label label-info">Viajes</span>
+          <span class="label label-warning">Naturaleza</span>
+          <span class="label label-danger">Amistades</span>
+        </p>
+      </div>
+      <div class="alert alert-success fade in">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+        <p><strong>Ey!</strong></p>
+        People are looking at your profile. Find out who.
+      </div>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+      <p><a href="#">Link</a></p>
+    </div>
+
+    
+
+
+
+
+    <div class="col-sm-7">
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div style="text-align:center"> 
+            <button class="boton-video"  onclick="playPause()">Play/Pause</button> 
+            <button class="boton-video" onclick="makeBig()">Big</button>
+            <button class="boton-video" onclick="makeSmall()">Small</button>
+            <button class="boton-video" onclick="makeNormal()">Normal</button>
+            <br><br>
+            <h1 class="h1">CONACHE</h1>
+            <br>
+            <video id="video1" class="video"  >
+                <source src="videos/conache.mp4" type="video/mp4">
+                <source src="videos/conache.mp4 " type="video/ogg">
+                Your browser does not support HTML video.
+            </video>
+            
+            
+          </div> 
+          
+        </div>
+      </div>
+      
+      <div id="descripcion" class="videos-pequeños container">
+        <div class="slider row">
+          <h2 class="titulo-video" >VIDEOS TURISTICOS</h2>
+
+            <div class="slider-pequeño col-md-2">
+              <div class="thumbnail">
+                <a href="videospequeños/salaverry.html">
+                  <img src="imagenes/chanchan.jpg" alt="Lights" style="width:100%">
+                  <div class="caption">
+                    <p>SALAVERRY</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="slider-pequeño col-md-2">
+              <div class="thumbnail">
+                <a href="videospequeños/cañoncillo.html">
+                  <img src="imagenes/chanchan.jpg" alt="Nature" style="width:100%">
+                  <div class="caption">
+                    <p>CAÑONCILLO</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="slider-pequeño col-md-2">
+              <div class="thumbnail">
+                <a href="videospequeños/ochipu.html">
+                  <img src="imagenes/chanchan.jpg" alt="Fjords" style="width:100%">
+                  <div class="caption">
+                    <p>CERRO OCHIPUTUR</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="slider-pequeño col-md-2">
+              <div class="thumbnail">
+                <a href="videospequeños/mancora.html">
+                  <img src="imagenes/chanchan.jpg" alt="Fjords" style="width:100%">
+                  <div class="caption">
+                    <p>MANCORA</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="slider-pequeño col-md-2">
+              <div class="thumbnail">
+                <a href="videospequeños/bamba.html">
+                  <img src="imagenes/chanchan.jpg" alt="Fjords" style="width:100%">
+                  <div class="caption">
+                    <p>LLUCHUBAMBA</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          
+        
+        
+        
+          </div>
+        
+        
+        
+      
+        
+      </div>
+      
+      
+    </div>
+    
+  <!--poner la foto-->
+    <div id="informe" class="col-sm-2 well">
+      <div class="thumbnail">
+        <p>Informacion</p>
+        <img src="imagenes/dddd.jpg" alt="Paris" width="400" height="300">
+        <p><strong>Conache</strong></p>
+        <p>01 de Julio del 2023</p>
+        <button class="btn btn-primary">Info</button>
+      </div>      
+      <div class="well">
+        <a href="#">PDF INFORME</a>
+      </div>
+      <div class="well">
+        <a href="#">NOTICIA</a>
+      </div>
+    </div>
+  </div>
+    
+      
+      
+      <script src="video.js"></script>
+</body>
+</html>

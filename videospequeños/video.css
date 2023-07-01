@@ -1,0 +1,55 @@
+
+body{
+    background-color: black;
+}
+.h1{
+    color: brown;
+}
+#video1{
+    width: 50%;
+    transform: rotate(270deg);
+    position: relative;
+    bottom: 140px;  
+    border: 2px solid white;
+}
+.videum{
+    color: #9B9A98;
+    position: relative;
+    bottom: 50px;
+}
+.text-vid{
+    border: 1px solid #9B9A98;
+    padding: 5px;
+    
+    
+}
+.boton-video{
+    background-color: black;
+    border-radius: 2px solid white ;
+    color: white;
+    
+}
+.boton-video:hover{
+    color: white;
+    background-color: red;
+}
+.filtro{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    .video{
+        width: 100%;
+        position: relative;
+        top: 0;
+        
+        
+    }
+    .text-vid{
+        width: 250px;
+        margin: auto;
+    }
+    .h1{
+        position: relative;
+        bottom: 25px;
+    }
+}

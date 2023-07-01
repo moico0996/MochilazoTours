@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Nunito:ital,wght@1,200;1,1000&family=Rajdhani:wght@300&family=Tajawal:wght@200&display=swap');
+.servi{
+    text-align: center;
+    
+    
+}
+.servicios-bloque{
+    width: 190px;
+    height: 40px;
+    background-color:#F75A16;
+    box-shadow: 0 0 10px #878;
+}
+.servicios-bloque:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px black;
+    scale: 1.05;
+}
+.well{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
